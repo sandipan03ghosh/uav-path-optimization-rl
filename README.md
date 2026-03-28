@@ -15,7 +15,6 @@ $Q(s, a) \leftarrow Q(s, a) + \alpha [R + \gamma \max_{a'} Q(s', a') - Q(s, a)]$
 ## 📈 Results
 The agent successfully converged to an optimal policy after approximately 5,000 episodes.
 
-![Learning Curve](./learning_curve.png)
 
 ## 🛠️ Requirements
 - Python 3.x
